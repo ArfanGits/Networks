@@ -1,0 +1,66 @@
+1. IP Address
+
+A device’s network “home address.”
+
+Types
+* Public IP:** Assigned by ISP, visible online.
+* Private IP:** Used inside home/office networks.
+
+**Why It Matters (Cyber)**
+
+Used to identify attackers, internal vs external traffic, brute-force attempts.
+
+---
+
+2. MAC Address
+
+A device’s permanent hardware identifier (like a fingerprint).
+
+Cyber Use
+Tracks specific devices, detects spoofing, traces lateral movement.
+
+---
+
+3. DNS (Domain Name System)
+  
+The internet’s “phonebook” that converts website names → IPs.
+Example: `google.com → 142.x.x.x`
+
+Cyber Use
+Detects phishing domains, DNS tunneling, suspicious lookups.
+
+---
+
+4. DHCP
+  
+Automatically gives devices an IP address and network settings.
+
+Cyber Use
+Shows when new/unknown devices join the network. Rogue DHCP = attack vector.
+
+---
+
+5. Public vs Private IP
+
+| Type           | Visible Online? | Example     |
+| -------------- | --------------- | ----------- |
+| **Public IP**  | Yes             | 99.x.x.x    |
+| **Private IP** | No              | 192.168.x.x |
+
+---
+
+6. Important Ports (Top 10)
+
+| Port             | Purpose              | Simple Example             |
+| ---------------- | -------------------- | -------------------------- |
+| **22 SSH**       | Remote control       | Logging into server        |
+| **53 DNS**       | Domain lookup        | Resolving google.com       |
+| **80 HTTP**      | Unsecure web         | Old websites               |
+| **443 HTTPS**    | Secure web           | Banking, Gmail             |
+| **445 SMB**      | File sharing         | Ransomware spreads here    |
+| **3389 RDP**     | Remote Desktop       | Accessing Windows remotely |
+| **139 NetBIOS**  | Old Windows sharing  | Legacy systems             |
+| **25 SMTP**      | Sending email        | Phishing delivery          |
+| **110 POP3**     | Receiving email      | Password theft             |
+| **8080 Web-Alt** | Test websites / APIs | Exposed admin panels       |
+
