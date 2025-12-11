@@ -1,0 +1,52 @@
+1. Full Forms
+
+TCP – Transmission Control Protocol
+UDP – User Datagram Protocol
+OSI Model – Open Systems Interconnection Model
+LAN – Local Area Network
+WAN – Wide Area Network
+VLAN – Virtual Local Area Network
+NAT – Network Address Translation
+VPN – Virtual Private Network
+ARP – Address Resolution Protocol
+ICMP – Internet Control Message Protocol
+HTTP – HyperText Transfer Protocol
+HTTPS – HyperText Transfer Protocol Secure
+DNS – Domain Name System
+DHCP – Dynamic Host Configuration Protocol
+
+2. TCP vs UDP (Short & Simple)
+
+TCP (like sending a registered parcel):
+✔ Reliable
+✔ Checks delivery
+✔ Slower
+Used for: websites, emails, banking.
+
+UDP (like shouting a message in a room):
+✔ Fast
+✔ No delivery check
+Used for: games, video calls, streaming.
+
+3. OSI Model (7 Layers – Kid-Friendly)
+
+Physical – cables, Wi-Fi, signals
+Data Link – MAC address, switches
+Network – IP address, routers
+Transport – TCP/UDP
+Session – connections (start–end)
+Presentation – encryption, formatting
+Application – your apps (browser, email)
+Easy memory trick:
+👉 “Please Do Not Throw Sausage Pizza Away”
+
+4. Wireshark Practice
+
+Filters used today:
+dns
+http
+icmp
+tcp.port == 80
+ip.addr == <your-ip>
+arp
+
