@@ -1,0 +1,43 @@
+Linux Basics — Day 3
+1. pwd — Print Working Directory
+
+Shows the current location in the file system.
+Example: pwd
+
+2. ls — List Files
+
+Displays all files and folders in the directory.
+Example: ls
+
+3. cd — Change Directory
+
+Moves between folders.
+Example: cd Documents
+
+4. mkdir — Make Directory
+
+Creates a new folder.
+Example: mkdir projects
+
+5. touch — Create File
+
+Creates an empty file.
+Example: touch notes.txt
+
+6. chmod — Change Permissions
+
+Controls access to files.
+Example: chmod +x script.sh
+
+7. chown — Change Owner
+
+Changes file owner.
+Example: sudo chown user:user file.txt
+
+
+Cybersecurity Relevance:
+Navigate Linux servers quickly
+Investigate logs
+Analyze malware artifacts
+Secure files using permissions
+Create scripts/tools
