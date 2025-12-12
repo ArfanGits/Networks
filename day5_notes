@@ -1,0 +1,25 @@
+# Day 5 – Windows Security Basics (Cybersecurity Prep)
+
+## Event Viewer
+- Used to view system, application, and security events.
+- Security logs show authentication attempts and account actions.
+
+## Important Event IDs
+- 4624 – Successful login
+- 4625 – Failed login (brute-force indicator)
+- 4672 – Admin privilege login (high risk)
+
+## Task Manager
+- Shows running processes and performance usage.
+- Useful for spotting suspicious high-CPU malware-like processes.
+
+## Services
+- Background system functions. Attackers may stop security services.
+
+## Local Users & Groups
+- Contains user accounts and permission groups.
+- Attackers may create hidden administrative accounts.
+
+---
+
+These notes help track Windows security fundamentals used in SOC analysis.
