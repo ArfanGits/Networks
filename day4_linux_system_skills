@@ -1,0 +1,26 @@
+# Linux System Skills — Day 4
+
+## 1. Processes
+- Command: ps aux
+- Shows: USER, PID, CPU, CMD
+- SOC Use: Detect suspicious programs
+
+## 2. Live Monitoring
+- Command: top
+- Use: Find high CPU/memory processes
+
+## 3. Killing Processes
+- Command: kill, kill -9
+- Use: Stop malicious processes
+
+## 4. Searching (grep/find)
+- Command: grep “keyword” file
+- Use: Search logs for attacks
+
+## 5. Services (systemctl)
+- Start/stop/status services
+- SOC Use: Detect unauthorized services
+
+## 6. Logs
+- File: /var/log/syslog
+- Use: Investigate system activity & attacks
