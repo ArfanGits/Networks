@@ -1,0 +1,15 @@
+#Event Viewer
+Windows Event Viewer records all security-related activities.
+
+## Important Event IDs
+- 4625: Failed login attempt
+- 4624: Successful login
+
+## SOC Use Case
+Multiple Event ID 4625 entries from the same IP indicate brute-force attacks.
+
+## Analyst Actions
+- Identify source IP
+- Check targeted account
+- Correlate with Event ID 4624
+- Escalate if suspicious
