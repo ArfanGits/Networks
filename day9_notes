@@ -1,0 +1,22 @@
+## What is Wireshark
+Wireshark is a network traffic analysis tool used by SOC analysts to inspect packets,
+identify suspicious activity, and investigate security incidents.
+
+## Interface Used
+- en0 (Wi-Fi)
+
+## Traffic Observed
+- DNS queries
+- ICMP (ping)
+- HTTPS traffic
+
+## Important Filters
+- dns
+- icmp
+- http
+- tcp.port == 443
+- ip.addr == <my_ip>
+
+## SOC Relevance
+Wireshark helps detect malware communication, DNS tunneling,
+reconnaissance activity, and unencrypted traffic.
