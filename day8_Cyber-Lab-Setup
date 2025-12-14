@@ -1,0 +1,15 @@
+# Cyber Lab Setup (macOS)
+
+This lab documents the setup of a cybersecurity learning environment on macOS (Apple Silicon).
+
+## Tools Installed
+- UTM (Virtual Machines)
+- Visual Studio Code
+- Git
+- Docker Desktop
+
+## Operating Systems Prepared
+- Kali Linux (ARM64)
+- Ubuntu Server (ARM64)
+
+This environment will be used for SOC analysis, blue team labs, red team exercises, and cloud security learning.
