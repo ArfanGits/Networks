@@ -1,0 +1,22 @@
+## CIA Triad
+- Confidentiality: Prevent unauthorized access to data
+- Integrity: Ensure data is not altered
+- Availability: Ensure systems are accessible when needed
+
+## Threat, Vulnerability, Risk
+- Threat: Potential cause of harm
+- Vulnerability: Weakness in a system
+- Risk: Threat exploiting a vulnerability
+
+## SOC
+A Security Operations Center monitors, detects, and responds to cyber threats.
+
+## SIEM
+Security Information and Event Management systems collect and analyze logs to detect incidents.
+
+## IDS vs IPS
+- IDS: Detects suspicious activity
+- IPS: Detects and blocks attacks
+
+## IOC
+Indicators of Compromise are artifacts that indicate potential security breaches.
