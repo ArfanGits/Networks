@@ -1,0 +1,11 @@
+# Bash Scripts — Day 11
+
+This folder contains beginner-to-intermediate Bash scripts created for cybersecurity automation.
+
+Scripts include:
+- variables example
+- if/then logic
+- loop automation
+- failed login detection
+
+These scripts were developed and tested on macOS and Linux (Ubuntu VM).
