@@ -1,0 +1,19 @@
+# Day 10 — Splunk Basics
+
+## Environment
+- Ubuntu 22.04 LTS (x86_64)
+- Splunk Enterprise (Linux amd64)
+
+## Installation
+Installed Splunk using dpkg and started service via CLI.
+
+## Searches Performed
+- index=*
+- failed
+- error
+- login
+
+## Learnings
+- Splunk indexes logs for fast searching
+- SPL (Search Processing Language) is used for detection
+- SOC teams rely on Splunk to detect brute-force, errors, and anomalies
