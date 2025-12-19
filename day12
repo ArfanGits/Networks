@@ -1,0 +1,38 @@
+🟦 Room 1: Introduction to Cyber Security
+
+What I learned:
+What cybersecurity means
+Difference between defensive & offensive roles
+Importance of confidentiality, integrity, availability (CIA)
+Why attackers target systems
+Basic analyst vocabulary
+
+Why this matters:
+SOC analysts must speak the language → logs, alerts, threats, events, IoCs.
+
+🟦 Room 2: Linux Fundamentals Part 1
+
+Commands practiced:
+Command	Meaning
+ls	list files
+cd	change directory
+pwd	show path
+cat	read files
+grep	search text
+chmod	change permissions
+chown	change ownership
+
+Why this matters:
+Linux is 60% of cybersecurity — servers, tools, shells, logs, malware analysis.
+
+🟦 Room 3: Network Fundamentals
+
+Topics:
+Ports (22, 80, 443, 445, 3389, etc.)
+IP addressing (public vs private)
+Packets
+TCP vs UDP
+OSI model basics
+
+Why this matters:
+Understanding packets + protocols = SOC detection power.
